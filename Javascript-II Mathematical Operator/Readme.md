@@ -20,7 +20,7 @@ Example:
 var a = 10 % 7
 Output:
 a = 3
-This operator is often useful when you want to check if a number is odd or even.
+This operator is often useful when you want to check if a number is odd or even
 Example:
 var a = 10 % 2
 var b = 11 % 2
