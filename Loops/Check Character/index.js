@@ -1,4 +1,3 @@
-
 let lower='abcdefghijklmnopqrstuvwxyz'
 let upper='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 let char='A'
@@ -11,7 +10,7 @@ for(let i=0;i<lower.length;i++){
   }
 }
 if(flag == true){
-  console.log('It is Capital letter')
+  console.log('It is not a Capital letterer')
 }else{
-  console.log('It is not a Capital letter')
+  console.log('It is Capital letter')
 }
