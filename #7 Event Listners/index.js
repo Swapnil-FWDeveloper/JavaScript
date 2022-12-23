@@ -29,7 +29,18 @@ const btn= document.getElementById('button')
 // 1 go to css file and give some property to the class (give the dummy name and use same name and use classList property)
 // The classList property returns the CSS classnames of an element. also this property will not work for id
 
-// btn.addEventListener('click',()=>{
-//     box1.classList.add("class_of_event_listner")
-//  })
+btn.addEventListener('click',()=>{
+    box1.classList.add("class_of_event_listner")//class_of_event_listner is the class of box1 once button is clicked and you can see property in 
+                                                //css
+ })
  
+
+
+ ///////////////////////////////////////////////////////////////////////////////////
+ //once our mouse went on heading color will change to blue with scale(1.1)
+ box1.addEventListener("mouseover",()=>{
+    btn.style.transformation='scale(1.1)';
+    heading.style.backgroundColor="Blue";
+    heading.style.color='white'
+    
+ })
