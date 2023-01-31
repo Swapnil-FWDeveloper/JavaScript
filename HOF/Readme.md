@@ -218,3 +218,6 @@ Conclusion
 The Array is an important data structure, and learning the operations that can be performed on it, is always beneficial.
 In this article, you learned about how to remove a specific element or a set of elements from the array using different methods.
 We got to know about, array indexes - indexOf() and splice() methods - using filter() and for loop to remove elements - shift() and pop() methods - And why avoid using the "delete" operator,It's always good to know more than one way to do a task!
+
+
+For More good UserInteraction https://www.scaler.com/topics/remove-element-from-array-javascript/ 
