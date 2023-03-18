@@ -16,5 +16,6 @@ const func1=(a,b)=>{
     // return a-b
     return Math.abs(a-b)
 }
+
 console.log(func1(2,5)) // output should be -3 but we will get as 3 due to Math.abs()
 console.log(Math.random(0)*10)//it will return random values form 0 to 10
